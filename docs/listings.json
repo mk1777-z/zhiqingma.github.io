@@ -2,6 +2,10 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/interests/running.html",
+      "/posts/interests/skating.html",
+      "/posts/projects/supervision/index.html",
+      "/posts/projects/chainCloud/index.html",
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
@@ -14,6 +18,10 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/interests/running.html",
+      "/posts/interests/skating.html",
+      "/posts/projects/supervision/index.html",
+      "/posts/projects/chainCloud/index.html",
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"

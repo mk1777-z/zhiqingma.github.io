@@ -1,0 +1,17 @@
+---
+title: "Smart Contract Penetrating Supervision Solution for Regional Equity Markets"
+description: "Proposed a smart contract-based regulatory mechanism for regional equity markets, utilizing a dual-layer blockchain architecture to enable real-time penetrating supervision."
+author: "Zhiqing Ma"
+date: "2025-09-03"
+categories: [projects]
+image: "/files/images/paper.jpg"
+#css: /custom.css
+#draft: true
+---
+<!-- 
+[![](/files/images/placeholder2.JPG){width="90%"}](https://drganghe.github.io/quarto-academic-website-template/) -->
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

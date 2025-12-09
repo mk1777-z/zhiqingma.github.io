@@ -6,19 +6,15 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+**Zhiqing Ma**
 
-School
+School: Shanghai University
 
-College
+Phone: +86 18601785926
 
-University
+E-mail: zhiqingma0228@163.com 
 
-Address: 
-
-Phone: 
-
-E-mail: 
+        20040228@shu.edu.cn
 
 
 </center>

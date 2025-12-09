@@ -1,0 +1,30 @@
+---
+title: "Chain Cloud: A decentralized copyright trading platform"
+description: "Developed a blockchain-based platform for copyright trading"
+author: "Zhiqing Ma"
+date: "2025-04-03"
+categories: [projects]
+image: "/files/images/structure.png"
+#css: /custom.css
+#draft: true
+---
+![](/files/images/structure.png){width="90%"}
+
+• Key platform features include: blockchain-based copyright evidence storage, smart contract-driven copyright transactions, multidimensional data analytics and visualization, regulatory auditing, and traceability queries.
+
+• Blockchain: Developed smart contract chain codes based on **Hyperledger Fabric** to implement copyright evidence storage, automated transaction execution, and revenue distribution logic, ensuring tamper-proof and fully traceable transaction data.
+
+• Data Storage: Designed a hybrid storage architecture storing critical transaction hashes on-chain while managing business data off-chain via **MySQL** and storing image/document files using **Huawei Cloud OBS**, balancing performance and security requirements.
+
+• Backend: Designed and implemented the backend architecture for a blockchain-based smart copyright trading platform. Built high-performance RESTful APIs using **Golang + Hertz** microservices framework to support core functions including copyright registration on-chain, transaction execution, and regulatory review. Implemented a comprehensive permission control system encompassing user registration/login, JWT authentication, and regulatory review. Utilized WebSocket calls to large models for AI-assisted Q&A.
+
+[![](/files/images/project1.png){width="90%"}](https://b23.tv/ixS4DDp)
+
+(Click the image to view the project introduction video submitted for the competition)
+
+17TH SHANGHAI UNIVERSITY COMPUTER APPLICATION CONTEST Second Prize | Jun 2025
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -1,25 +1,25 @@
-- path: https://drganghe.github.io/quarto-academic-site-examples.html
-  image: "/files/images/placeholder1.jpg"
-  title: "Quarto Academic Website Examples and Tips"
-  author: "Dr. Gang He"
-  description: "Examples and tips for Quarto Academic Website"
-  date: "2024-10-15"
-  categories: [news]
+- path: posts/projects/chainCloud/index.html
+  image: "/files/images/structure.png"
+  title: "Chain Cloud: A decentralized copyright trading platform"
+  author: "Zhiqing Ma, Wenhao Wang, Huaxuan Xiao, Siyi Yao"
+  description: "Developed a blockchain-based platform for copyright trading"
+  date: "2024-04-01"
+  categories: [projects]
 
-- path: https://example.com/blockchain-paper
-  image: "/files/images/placeholder2.jpg"
-  title: "Smart Contract Optimization Research"
-  author: "Zhiqing Ma"
-  description: "Research on blockchain and DeFi applications"
-  date: "2024-12-01"
-  categories: [paper]
+# - path: /posts/interests/running.html#category=running
+#   image: "/files/images/running.jpg"
+#   title: "Running Record"
+#   author: "Zhiqing Ma"
+#   description: "My experience and tips on running"
+#   date: "2024-12-10"
+#   categories: [running]
 
-- path: https://example.com/roller-skating
-  image: "/files/images/placeholder3.jpg"
-  title: "Weekend Roller Skating Session"
-  author: "Zhiqing Ma"
-  description: "Enjoying roller skating in Shanghai parks"
-  date: "2024-11-20"
-  categories: [roller_skating]
+# - path: /posts/interests/skating.html#category=skating
+#   image: "/files/images/skating.jpg"
+#   title: "Roller Skating Fun"
+#   author: "Zhiqing Ma"
+#   description: "Enjoying roller skating in Shanghai University"
+#   date: "2024-11-04"
+#   categories: [skating]
 
 # 这一页是recent posts的链接

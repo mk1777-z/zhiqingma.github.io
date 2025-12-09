@@ -4,7 +4,7 @@ subtitle: |
   **B.S. in Computer Science** | Shanghai University <br>
   **Email:** zhiqingma77k@gmail.com
 description-meta: "Academic Website of Zhiqing Ma"
-image: "files/images/placeholder4.JPG"
+image: "files/images/personal.jpg"
 page-navigation: false
 toc: false
 #sidebar: false
@@ -21,7 +21,7 @@ about:
       target: _blank
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/zhiqing-ma
+      href: https://www.linkedin.com/in/zhiqing-ma-072ab2385/
       target: _blank
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
@@ -61,7 +61,7 @@ Welcome to my personal website where I share my projects and research.
 ## Research Experience
 
 - **Researcher** | Smart Contract Supervision for Regional Equity Markets
-  - Published in *Blockchain and Web3 Technology Innovation and Application Exchange Conference* (Springer Nature, 2025)
+  - Published in *Blockchain and Web3 Technology Innovation and Application Exchange Conference* 
 - **Independent Researcher** | Uniswap V4 Hook Mechanism Design
 - **Researcher** | MIT XPRO (Bridgewater Project)
 
@@ -69,9 +69,9 @@ Welcome to my personal website where I share my projects and research.
 
 <!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
 ## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+Check out the latest &nbsp;[Projects](posts/projects/chainCloud/index.html)&nbsp;, &nbsp;[News](posts.qmd#category=running)&nbsp;, &nbsp;[Events](posts.qmd#category=skating)&nbsp;, and &nbsp;[More »](./posts.qmd)
 
 :::{#recent-posts}
 :::
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+<p align="right">[All Posts »](./posts.qmd)</p>

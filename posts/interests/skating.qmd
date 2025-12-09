@@ -1,0 +1,23 @@
+---
+title: "Freestyle Skating Record"
+description: "enjoy this"
+author: "Zhiqing Ma"
+date: "2025-11-04"
+categories: [skating]
+image: "/files/images/skating.jpg"
+#css: /custom.css
+#draft: true
+---
+
+Director, Technology Department, Roller Skating Club, SHU  |  09.2022-06. 2023
+
+Responsible for teaching the movement to the members and choreographing the dance of roller skating for the opening ceremony of the sports festival, as well as managing the club's daily work.
+
+![](../../files/images/skating.jpg){width="90%"}
+
+to be continued ...
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}

@@ -10,33 +10,134 @@
 <atom:link href="https://drganghe.github.io/quarto-academic-website-template/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Quarto Academic Website Template adapted by Zhiqing Ma</description>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Sat, 30 Nov 2024 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 09 Dec 2025 16:00:00 GMT</lastBuildDate>
 <item>
-  <title>Smart Contract Optimization Research</title>
-  <link>https://drganghe.github.io/quarto-academic-website-template/</link>
-  <description>Research on blockchain and DeFi applications</description>
-  <category>paper</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
-  <pubDate>Sat, 30 Nov 2024 16:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.jpg" medium="image" type="image/jpeg"/>
+  <title>Running Record</title>
+  <dc:creator>Zhiqing Ma</dc:creator>
+  <link>https://drganghe.github.io/quarto-academic-website-template/posts/interests/running.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>2025 Shanghai International Raceway Youth Run 10km | 2025.11.02</p>
+<p>to be continued …</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin" href="linkedin.com/in/zhiqing-ma-072ab2385"></a> <a class="a2a_button_email" href="zhiqingma0228@163.com"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>running</category>
+  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/interests/running.html</guid>
+  <pubDate>Tue, 09 Dec 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/running.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Weekend Roller Skating Session</title>
-  <link>https://drganghe.github.io/quarto-academic-website-template/</link>
-  <description>Enjoying roller skating in Shanghai parks</description>
-  <category>roller_skating</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
-  <pubDate>Tue, 19 Nov 2024 16:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder3.jpg" medium="image" type="image/jpeg"/>
+  <title>Freestyle Skating Record</title>
+  <dc:creator>Zhiqing Ma</dc:creator>
+  <link>https://drganghe.github.io/quarto-academic-website-template/posts/interests/skating.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Director, Technology Department, Roller Skating Club, SHU | 09.2022-06. 2023</p>
+<p>Responsible for teaching the movement to the members and choreographing the dance of roller skating for the opening ceremony of the sports festival, as well as managing the club’s daily work.</p>
+<p><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/skating.jpg" class="img-fluid" style="width:90.0%"></p>
+<p>to be continued …</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin" href="linkedin.com/in/zhiqing-ma-072ab2385"></a> <a class="a2a_button_email" href="zhiqingma0228@163.com"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>skating</category>
+  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/interests/skating.html</guid>
+  <pubDate>Mon, 03 Nov 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/skating.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Quarto Academic Website Examples and Tips</title>
-  <link>https://drganghe.github.io/quarto-academic-website-template/</link>
-  <description>Examples and tips for Quarto Academic Website</description>
-  <category>news</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
-  <pubDate>Mon, 14 Oct 2024 16:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
+  <title>Smart Contract Penetrating Supervision Solution for Regional Equity Markets</title>
+  <dc:creator>Zhiqing Ma</dc:creator>
+  <link>https://drganghe.github.io/quarto-academic-website-template/posts/projects/supervision/</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- 
+[![](/files/images/placeholder2.JPG){width="90%"}](https://drganghe.github.io/quarto-academic-website-template/) -->
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin" href="linkedin.com/in/zhiqing-ma-072ab2385"></a> <a class="a2a_button_email" href="zhiqingma0228@163.com"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>projects</category>
+  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/projects/supervision/</guid>
+  <pubDate>Tue, 02 Sep 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/paper.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Chain Cloud: A decentralized copyright trading platform</title>
+  <dc:creator>Zhiqing Ma</dc:creator>
+  <link>https://drganghe.github.io/quarto-academic-website-template/posts/projects/chainCloud/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/structure.png" class="img-fluid" style="width:90.0%"></p>
+<p>• Key platform features include: blockchain-based copyright evidence storage, smart contract-driven copyright transactions, multidimensional data analytics and visualization, regulatory auditing, and traceability queries.</p>
+<p>• Blockchain: Developed smart contract chain codes based on <strong>Hyperledger Fabric</strong> to implement copyright evidence storage, automated transaction execution, and revenue distribution logic, ensuring tamper-proof and fully traceable transaction data.</p>
+<p>• Data Storage: Designed a hybrid storage architecture storing critical transaction hashes on-chain while managing business data off-chain via <strong>MySQL</strong> and storing image/document files using <strong>Huawei Cloud OBS</strong>, balancing performance and security requirements.</p>
+<p>• Backend: Designed and implemented the backend architecture for a blockchain-based smart copyright trading platform. Built high-performance RESTful APIs using <strong>Golang + Hertz</strong> microservices framework to support core functions including copyright registration on-chain, transaction execution, and regulatory review. Implemented a comprehensive permission control system encompassing user registration/login, JWT authentication, and regulatory review. Utilized WebSocket calls to large models for AI-assisted Q&amp;A.</p>
+<p><a href="https://b23.tv/ixS4DDp"><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/project1.png" class="img-fluid" style="width:90.0%"></a></p>
+<p>(Click the image to view the project introduction video submitted for the competition)</p>
+<p>17TH SHANGHAI UNIVERSITY COMPUTER APPLICATION CONTEST Second Prize | Jun 2025</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin" href="linkedin.com/in/zhiqing-ma-072ab2385"></a> <a class="a2a_button_email" href="zhiqingma0228@163.com"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>projects</category>
+  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/projects/chainCloud/</guid>
+  <pubDate>Wed, 02 Apr 2025 16:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/structure.png" medium="image" type="image/png" height="84" width="144"/>
 </item>
 <item>
   <title>Event item</title>
@@ -55,7 +156,7 @@ Using includes will make edits easier, will only need to add or remove button he
 https://quarto.org/docs/authoring/includes.html
 -->
 <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_email" href="zhiqingma0228@163.com"></a></p>
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin" href="linkedin.com/in/zhiqing-ma-072ab2385"></a> <a class="a2a_button_email" href="zhiqingma0228@163.com"></a></p>
 </div>
 <script async="" src="https://static.addtoany.com/menu/page.js"></script>
 
@@ -99,6 +200,15 @@ https://quarto.org/docs/authoring/includes.html
   <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</guid>
   <pubDate>Sun, 23 Jun 2024 16:00:00 GMT</pubDate>
   <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder3.JPG" medium="image"/>
+</item>
+<item>
+  <title>Chain Cloud: A decentralized copyright trading platform</title>
+  <link>https://drganghe.github.io/quarto-academic-website-template/</link>
+  <description>Developed a blockchain-based platform for copyright trading</description>
+  <category>projects</category>
+  <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
+  <pubDate>Sun, 31 Mar 2024 16:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/structure.png" medium="image" type="image/png" height="84" width="144"/>
 </item>
 <item>
   <title>Can quantum-mechanical description of physical reality be considered complete?</title>

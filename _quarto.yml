@@ -17,14 +17,16 @@ website:
     left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
-      - text: About
-        menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
+      # - text: About
+      #   menu:
+      #     - text: News
+      #       href: posts.qmd#category=news
+      #     - text: Events
+      #       href: posts.qmd#category=event      
+      #     - text: Contact
+      #       href: contact.qmd       
+      - text: Contact
+        href: contact.qmd          
       - text: Research
         href: projects.qmd                                
       - text: Interns # Comment the Teaching part out to remove the Teaching page
@@ -32,21 +34,21 @@ website:
       - text: Interests
         menu:        
         - text: Roller Skating
-          href: posts.qmd#category=roller_skating     
+          href: posts/interests/skating.html#category=skating     
         - text: Running
-          href: posts.qmd#category=Running                
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+          href: posts/interests/running.html#category=running          
+      # - text: Group   # Comment the Group part out to remove the Group page
+      #   href: people.qmd
 
     right: 
-      - text: CV
-        href: files/nsf-biosketch.pdf
+      # - text: CV
+      #   href: files/nsf-biosketch.pdf
       - icon: github
         href: https://github.com/mk1777-z
         target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
+      # - text: "{{< fa brands bluesky >}}"
+      #   href: https://bsky.app
+      #   target: _blank      
       - icon: rss
         href: posts.xml
         target: _blank
