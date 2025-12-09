@@ -1,6 +1,9 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
+title: "Zhiqing Ma"
+subtitle: |
+  **B.S. in Computer Science** | Shanghai University <br>
+  **Email:** zhiqingma77k@gmail.com
+description-meta: "Academic Website of Zhiqing Ma"
 image: "files/images/placeholder4.JPG"
 page-navigation: false
 toc: false
@@ -12,40 +15,14 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/mk1777-z
       target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
-    - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/zhiqing-ma
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
   - id: recent-posts
@@ -67,34 +44,28 @@ listing:   # Comment the listing section and delete corresponding lines in the i
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+Hi, I'm **Zhiqing Ma**.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+I am an undergraduate student majoring in **Computer Science and Technology** at **Shanghai University**. 
 
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
-1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
+My research interests lie at the intersection of **Blockchain Technology**, **Decentralized Finance (DeFi)**, and **Smart Contract Optimization**. I am passionate about combining theoretical research with industrial practice, ranging from backend microservices architecture to privacy computing solutions.
 
-## Experience
+Welcome to my personal website where I share my projects and research.
 
-- Researcher, Univerisity
+## Internship Experience
 
-## Education
+- **Java Backend Engineer Intern** | Huifu Payment Limited
+- **R&D Intern** | Shanghai Data Exchange Corp., Ltd
+- **Blockchain R&D Intern** | Wutong Chain Digital Technology Research Institute
 
-- PhD, Univerisity
+## Research Experience
+
+- **Researcher** | Smart Contract Supervision for Regional Equity Markets
+  - Published in *Blockchain and Web3 Technology Innovation and Application Exchange Conference* (Springer Nature, 2025)
+- **Independent Researcher** | Uniswap V4 Hook Mechanism Design
+- **Researcher** | MIT XPRO (Bridgewater Project)
 
 :::
-
 
 <!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
 ## Recent Posts

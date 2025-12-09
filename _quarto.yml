@@ -3,16 +3,16 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Quarto Academic Website Template adapted by Zhiqing Ma"
+author-meta: "Zhiqing Ma"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  title: "Zhiqing Ma"
+  # image: "https://quarto.org/quarto.png"
+  description: "Quarto Academic Website Template adapted by Zhiqing Ma"
  
   navbar:
-    background: light  # You can change the background color here
+    background: light # You can change the background color here
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
@@ -26,19 +26,15 @@ website:
           - text: Contact
             href: contact.qmd             
       - text: Research
-        menu:
-          - text: List of Publications
-            href: publications.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
-      - text: Outreach
+        href: projects.qmd                                
+      - text: Interns # Comment the Teaching part out to remove the Teaching page
+        href: interns.qmd
+      - text: Interests
         menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
+        - text: Roller Skating
+          href: posts.qmd#category=roller_skating     
+        - text: Running
+          href: posts.qmd#category=Running                
       - text: Group   # Comment the Group part out to remove the Group page
         href: people.qmd
 
@@ -46,7 +42,7 @@ website:
       - text: CV
         href: files/nsf-biosketch.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/mk1777-z
         target: _blank
       - text: "{{< fa brands bluesky >}}"
         href: https://bsky.app
@@ -58,14 +54,11 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "[Zhiqing Ma](https://github.com/mk1777-z) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: "Always be curious about the world"
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
+        href: https://github.com/mk1777-ze
         target: _blank
       - icon: rss
         href: posts.xml
@@ -79,7 +72,7 @@ website:
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+  repo-url: https://github.com/mk1777-z/zhiqingma.github.io
 #  repo-actions: [edit, issue, source]
   
   open-graph: true

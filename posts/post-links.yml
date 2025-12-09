@@ -1,9 +1,25 @@
+- path: https://drganghe.github.io/quarto-academic-site-examples.html
+  image: "/files/images/placeholder1.jpg"
+  title: "Quarto Academic Website Examples and Tips"
+  author: "Dr. Gang He"
+  description: "Examples and tips for Quarto Academic Website"
+  date: "2024-10-15"
+  categories: [news]
 
-    - path: https://drganghe.github.io/quarto-academic-site-examples.html
-      image: "/files/images/placeholder1.jpg"
-      title: "Quarto Academic Website Examples and Tips"
-      author: "Dr. Gang He"
-      description: "Examples and tips for Quarto Academic Website"
-      date: "2024-10-15"
-      categories: [news] 
+- path: https://example.com/blockchain-paper
+  image: "/files/images/placeholder2.jpg"
+  title: "Smart Contract Optimization Research"
+  author: "Zhiqing Ma"
+  description: "Research on blockchain and DeFi applications"
+  date: "2024-12-01"
+  categories: [paper]
 
+- path: https://example.com/roller-skating
+  image: "/files/images/placeholder3.jpg"
+  title: "Weekend Roller Skating Session"
+  author: "Zhiqing Ma"
+  description: "Enjoying roller skating in Shanghai parks"
+  date: "2024-11-20"
+  categories: [roller_skating]
+
+# 这一页是recent posts的链接

@@ -1,0 +1,72 @@
+---
+title: "Internship Experience"
+subtitle: "Three internships focused on backend development, blockchain technology, and cybersecurity solutions"
+title-block-banner: false
+---
+
+
+## Huifu Payment Limited 
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](files/images/placeholder1.jpg)
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+<!-- [Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com) -->
+[Java Backend Engineer Intern](https://www.huifu.com/en/) | 07.2025 - now<br>
+
+· Engineered high-availability backend microservices for cross-border payments; designed an asynchronous "estimate-and-compensate" mechanism for multi-currency withdrawals to resolve exchange rate latency and ensure ledger consistency.<br>
+· Developed full-lifecycle interfaces for stablecoin acquiring, implementing end-to-end logic for order creation, cancellation, and final settlement to enable seamless crypto-to-fiat conversion.<br>
+· Optimized financial reconciliation processes by building custom SQL automation tools for the finance team and resolved critical production infrastructure issues to ensure system stability.
+
+:::
+
+:::
+
+
+## Shanghai Data Exchange Corp., Ltd
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](files/images/placeholder2.JPG)
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+[R&D Intern](https://www.chinadep.com/website/) | 01.2025 - 03.2025<br>
+Project: Built and Verified the DApp Model<br>
+· Built a full-process simulation DApp model for exchanging tokens for AI computing power in Java, with the core module focusing on the interaction between the Solana blockchain and AI computing services.
+
+:::
+
+:::
+
+
+## Wutong Chain Digital Technology Research Institute
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](files/images/placeholder3.JPG)
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+[Blockchain R&D Intern](https://www.wutongchain.com/) | 06.2023 - 08.2023<br>
+
+· Assisted in building the Wutong Privacy Computing Platform, utilizing secure multi-party computation to achieve "data available but invisible," solving data circulation privacy challenges.
+
+:::
+
+:::
+
+
+
+

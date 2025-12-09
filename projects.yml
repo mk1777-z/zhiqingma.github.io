@@ -1,13 +1,43 @@
 
     - path: https://www.nsf.gov/ 
       image: https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png
-      title: "Exploring "
-      author: Academic Website
-      subtitle: "Funder"
-      description: "The goal of this project is to investigate ."
-      started: "2024"
-      ended: "2025"
-      funding: "$0"
+      title: "Blockchain and DeFi Research"
+      author: Zhiqing Ma, Dr. Zhimei Sui
+      description: "Research on blockchain technology and decentralized finance applications"
+      started: "2025"
+      ended: "till-now"
 #      date: "2022-10-26"
 #      categories: [] 
+
+    - path: https://www.nsf.gov/ 
+      image: https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png
+      title: "Smart Contract Penetrating Supervision Solution for Regional Equity Markets"
+      author: Denghuang Zhang, Zhiqing Ma
+      description: "Proposed a smart contract-based regulartory mechanism for equity markets"
+      started: "2025"
+      ended: "2025"
+
+    - path: https://www.nsf.gov/ 
+      image: https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png
+      title: "Chain Cloud: A decentralized copyright trading platform"
+      author: Zhiqing Ma, Wenhao Wang, [Huaxuan Xiao](https://hxx0729.github.io/), Siyi Yao
+      description: "Developed a blockchain-based platform for copyright trading"
+      started: "2024"
+      ended: "2025"
+
+    - path: https://www.nsf.gov/ 
+      image: https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png
+      title: "Inheriting Blessings"
+      author: Siyi Yao, Zhiqing Ma, Mingkun Li
+      description: "Created a short film using AIGC tools"
+      started: "2024"
+      ended: "2024"
+
+    - path: https://www.nsf.gov/ 
+      image: https://nsf-gov-resources.nsf.gov/styles/featured_content_tablet/s3/2023-10/NSF_Official_logo_Med_Res_600ppi_rectangle.png
+      title: "Holistic Ecosystem Dynamics with Lampreys Considering Age Structure and Diffusion Terms"
+      author: Junjie Pu, Zhiqing Ma, Sheng Li
+      description: "MCM/ICM Meritorious Winner (First Prize)"
+      started: "2024"
+      ended: "2024"
 
