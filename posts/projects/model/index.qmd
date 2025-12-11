@@ -1,0 +1,27 @@
+---
+title: "Holistic Ecosystem Dynamics with Lampreys Considering Age Structure and Diffusion Terms"
+description: "Implemented a complex ODE-PDE coupling model to simulate ecosystem dynamics and parasite diffusion."
+author: "Junjie Pu, Sheng Li, Zhiqing Ma"
+date: "2024-02-15" 
+categories: [projects]
+image: "/files/images/lamprey_model_workFlow.png" 
+#css: /custom.css
+#draft: false
+---
+![](/files/images/lamprey_model_workFlow.png){width="90%"}
+
+• Key project features include: quantification of sex ratio functions, simulation of parasite diffusion using spectral methods, and a robust numerical solver for non-trivial equilibrium systems.
+
+• **Data Analysis & Pre-processing**: Cleaned historical observation data and quantified the key “sex ratio function” by conducting comparative analysis between **Polynomial Regression** and **SVM (Support Vector Machines)**, establishing the statistical foundation for the ecosystem model.
+
+• **Core Simulation Engine**: Designed and implemented a solver based on the **Finite Difference Method** to handle the complex ODE-PDE coupling model. Introduced the **Dirac Delta function** to accurately mathematically express biological pulses within the ecosystem.
+
+• **Optimization & Stability**: Implemented the **Levenberg-Marquardt algorithm** and **Trust Domain Policy Optimization (TRPO)** to solve for non-trivial equilibrium, ensuring numerical convergence where traditional black-box tools failed. Applied the **Chebyshev spectral method** to simulate the diffusion effect of parasites with high accuracy.
+
+[![](/files/images/lamprey_model_ecosystem.png){width="90%"}](/files/pdf/2403047.pdf)
+
+(Click the image to view the technical paper)
+
+**MCM/ICM (Mathematical Contest in Modeling)** Meritorious Winner (First Prize) | Apr 2024
+
+{{< include /files/includes/_socialshare.qmd >}}

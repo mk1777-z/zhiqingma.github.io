@@ -1,0 +1,96 @@
+---
+title: "Technology Stack"
+description-meta: "My technical skills and expertise"
+title-block-banner: false
+page-layout: article
+---
+
+```{=html}
+<style>
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.tech-card {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.tech-icon {
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+.tech-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+</style>
+
+<div class="tech-container">
+  <div class="tech-card">
+    <div class="tech-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="64" height="64" alt="C++"/>
+    </div>
+    <p class="tech-name">C++</p>
+  </div>
+
+  <div class="tech-card">
+    <div class="tech-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="64" height="64" alt="Java"/>
+    </div>
+    <p class="tech-name">Java</p>
+  </div>
+
+  <div class="tech-card">
+    <div class="tech-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="64" height="64" alt="Python"/>
+    </div>
+    <p class="tech-name">Python</p>
+  </div>
+
+  <div class="tech-card">
+    <div class="tech-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" width="64" height="64" alt="Golang"/>
+    </div>
+    <p class="tech-name">Golang</p>
+  </div>
+
+  <div class="tech-card">
+    <div class="tech-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" width="64" height="64" alt="Solidity"/>
+    </div>
+    <p class="tech-name">Solidity</p>
+  </div>
+
+  <div class="tech-card">
+    <div class="tech-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="64" height="64" alt="SQL"/>
+    </div>
+    <p class="tech-name">SQL</p>
+  </div>
+
+  <div class="tech-card">
+    <div class="tech-icon">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" width="64" height="64" alt="LaTeX"/>
+    </div>
+    <p class="tech-name">LaTeX</p>
+  </div>
+</div>
+```

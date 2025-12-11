@@ -211,6 +211,41 @@ https://quarto.org/docs/authoring/includes.html
   <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/structure.png" medium="image" type="image/png" height="84" width="144"/>
 </item>
 <item>
+  <title>Holistic Ecosystem Dynamics with Lampreys Considering Age Structure and Diffusion Terms</title>
+  <dc:creator>Junjie Pu, Sheng Li, Zhiqing Ma</dc:creator>
+  <link>https://drganghe.github.io/quarto-academic-website-template/posts/projects/model/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/lamprey_model_workFlow.png" class="img-fluid" style="width:90.0%"></p>
+<p>• Key project features include: quantification of sex ratio functions, simulation of parasite diffusion using spectral methods, and a robust numerical solver for non-trivial equilibrium systems.</p>
+<p>• <strong>Data Analysis &amp; Pre-processing</strong>: Cleaned historical observation data and quantified the key “sex ratio function” by conducting comparative analysis between <strong>Polynomial Regression</strong> and <strong>SVM (Support Vector Machines)</strong>, establishing the statistical foundation for the ecosystem model.</p>
+<p>• <strong>Core Simulation Engine</strong>: Designed and implemented a solver based on the <strong>Finite Difference Method</strong> to handle the complex ODE-PDE coupling model. Introduced the <strong>Dirac Delta function</strong> to accurately mathematically express biological pulses within the ecosystem.</p>
+<p>• <strong>Optimization &amp; Stability</strong>: Implemented the <strong>Levenberg-Marquardt algorithm</strong> and <strong>Trust Domain Policy Optimization (TRPO)</strong> to solve for non-trivial equilibrium, ensuring numerical convergence where traditional black-box tools failed. Applied the <strong>Chebyshev spectral method</strong> to simulate the diffusion effect of parasites with high accuracy.</p>
+<p><a href="../../..\files/pdf/2403047.pdf"><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/lamprey_model_ecosystem.png" class="img-fluid" style="width:90.0%"></a></p>
+<p>(Click the image to view the technical paper)</p>
+<p><strong>MCM/ICM (Mathematical Contest in Modeling)</strong> Meritorious Winner (First Prize) | Apr 2024</p>
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin" href="linkedin.com/in/zhiqing-ma-072ab2385"></a> <a class="a2a_button_email" href="zhiqingma0228@163.com"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>projects</category>
+  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/projects/model/</guid>
+  <pubDate>Wed, 14 Feb 2024 16:00:00 GMT</pubDate>
+  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/lamprey_model_workFlow.png" medium="image" type="image/png" height="101" width="144"/>
+</item>
+<item>
   <title>Can quantum-mechanical description of physical reality be considered complete?</title>
   <dc:creator>Albert Einstein</dc:creator>
   <dc:creator>Boris Podolsky</dc:creator>
