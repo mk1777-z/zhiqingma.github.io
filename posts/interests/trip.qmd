@@ -1,0 +1,169 @@
+---
+title: "My Travel Journey"
+description: "My dream is to light up the world with my footsteps ✨"
+# date: "Since 2022"
+categories: [interests]
+image: "/files/images/travel.svg"
+---
+
+```{=html}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+#map {
+  height: 600px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  margin: 20px 0;
+  background: #1a1a1a;
+}
+
+.legend {
+  background: #2d2d2d;
+  color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  margin: 20px 0;
+}
+
+.legend h4 {
+  color: #ffd700;
+  margin-top: 0;
+}
+
+.legend-item {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+</style>
+
+<div id="map"></div>
+<div class="legend">
+  <h4>Places Visited</h4>
+  <div class="legend-item">
+    <span class="legend-color" style="background: #ffd700;"></span>
+    <span>China: 21 provinces/regions</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background: #ffd700;"></span>
+    <span>Japan: 2 cities</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background: #ffd700;"></span>
+    <span>South Korea: 1 region</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background: #ffd700;"></span>
+    <span>United States: 4 cities</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background: #ffd700;"></span>
+    <span>Germany: 1 city</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background: #ffd700;"></span>
+    <span>Italy: 1 city</span>
+  </div>
+</div>
+
+<script>
+// 初始化地图，设置全球视角
+var map = L.map('map').setView([30, 110], 3);
+
+// 添加深色地图图层 (CartoDB Dark Matter)
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    maxZoom: 19
+}).addTo(map);
+
+// 自定义图标样式 - 亮黄色发光效果
+var visitedIcon = function() {
+  return L.divIcon({
+    className: 'custom-marker',
+    html: `<div style="
+      background-color: #ffd700; 
+      width: 20px; 
+      height: 20px; 
+      border-radius: 50%; 
+      border: 3px solid #ffed4e;
+      box-shadow: 0 0 20px #ffd700, 0 0 40px rgba(255, 215, 0, 0.6);
+      animation: pulse 2s infinite;
+    "></div>
+    <style>
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.1); opacity: 0.8; }
+      }
+    </style>`,
+    iconSize: [20, 20],
+    iconAnchor: [10, 10]
+  });
+};
+
+// 所有访问过的地点
+var locations = [
+  // 中国城市和省份
+  {name: "上海", coords: [31.2304, 121.4737]},
+  {name: "北京", coords: [39.9042, 116.4074]},
+  {name: "天津", coords: [39.3434, 117.3616]},
+  {name: "山西", coords: [37.8706, 112.5489]},
+  {name: "山东", coords: [36.6758, 117.0009]},
+  {name: "云南", coords: [25.0406, 102.7123]},
+  {name: "海南", coords: [20.0444, 110.1999]},
+  {name: "湖北", coords: [30.5928, 114.3055]},
+  {name: "河南", coords: [34.7466, 113.6253]},
+  {name: "四川", coords: [30.5728, 104.0668]},
+  {name: "重庆", coords: [29.4316, 106.9123]},
+  {name: "甘肃", coords: [36.0611, 103.8343]},
+  {name: "福建", coords: [26.0745, 119.2965]},
+  {name: "广东", coords: [23.1291, 113.2644]},
+  {name: "浙江", coords: [30.2741, 120.1551]},
+  {name: "江苏", coords: [32.0603, 118.7969]},
+  {name: "青海", coords: [36.6171, 101.7782]},
+  {name: "湖南", coords: [28.2282, 112.9388]},
+  {name: "安徽", coords: [31.8206, 117.2272]},
+  {name: "香港", coords: [22.3193, 114.1694]},
+  {name: "澳门", coords: [22.1987, 113.5439]},
+  
+  // 日本
+  {name: "东京", coords: [35.6762, 139.6503]},
+  {name: "横滨", coords: [35.4437, 139.6380]},
+  
+  // 韩国
+  {name: "济州岛", coords: [33.4996, 126.5312]},
+  
+  // 美国（按城市标记）
+  {name: "纽约", coords: [40.7128, -74.0060]},
+  {name: "波士顿", coords: [42.3601, -71.0589]},
+  {name: "华盛顿", coords: [38.9072, -77.0369]},
+  {name: "洛杉矶", coords: [34.0522, -118.2437]},
+  
+  // 德国
+  {name: "慕尼黑", coords: [48.1351, 11.5820]},
+  
+  // 意大利
+  {name: "罗马", coords: [41.9028, 12.4964]}
+];
+
+// 添加所有标记
+locations.forEach(function(location) {
+  L.marker(location.coords, {icon: visitedIcon()})
+    .addTo(map)
+    .bindPopup('<b style="color: #ffd700;">' + location.name + '</b>');
+});
+
+</script>
+```

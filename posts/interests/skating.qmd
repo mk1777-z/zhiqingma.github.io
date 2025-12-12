@@ -3,7 +3,7 @@ title: "Freestyle Skating Record"
 description: "enjoy this"
 author: "Zhiqing Ma"
 date: "2025-11-04"
-categories: [skating]
+categories: [interests]
 image: "/files/images/skating.jpg"
 #css: /custom.css
 #draft: true
