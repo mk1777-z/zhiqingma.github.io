@@ -2,7 +2,7 @@
 title: "Zhiqing Ma"
 subtitle: |
   **B.E. in Computer Science** | Shanghai University <br>
-  **Email:** zhiqingma77k@gmail.com
+  **Email:** zhiqingma0228@163.com
 description-meta: "Academic Website of Zhiqing Ma"
 image: "files/images/personal.jpg"
 page-navigation: false
